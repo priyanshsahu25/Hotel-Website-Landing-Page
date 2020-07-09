@@ -1,0 +1,66 @@
+*{
+		margin: 0;
+		padding: 0;
+
+	}
+	#bg1{
+    		background-image: url("lu1.jpg");
+    		margin: 0;
+    		padding: 0;
+    		background-size: cover;
+    	}
+    	#cardbg{
+    		background-image: url("https://www.w3schools.com/w3images/cinqueterre.jpg");
+    		margin: 0;
+    		padding: 0;
+    		background-size: cover;
+    	}
+    	#cardbg2{background-image: url("https://www.w3schools.com/w3images/newyork2.jpg");
+    		margin: 0;
+    		padding: 0;
+    	}
+
+    	.a:hover  {-ms-transform: scale(1.1); /* IE 9 */
+  			-webkit-transform: scale(1.1); /* Safari 3-8 */
+  			transform: scale(1.);
+  }
+
+    .btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+ 
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;}
+ .hover01{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.hover01:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.cb{
+    opacity: 0.85
+}
+.cb:hover{
+    opacity: 1.0;
+}
